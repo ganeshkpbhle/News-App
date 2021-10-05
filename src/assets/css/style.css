@@ -2953,8 +2953,14 @@ hr {
     border-bottom: 0
 }
 
-.trending-area .trending-main .trand-right-single .trand-right-img img {
+.trending-area .trending-main .trand-right-single img {
     border-radius: 6px
+}
+
+.trand-right-img {
+    max-width: 120px;
+    max-height: 50px;
+    border-radius: 6px;
 }
 
 .trending-area .trending-main .trand-right-single .trand-right-cap {
@@ -3681,7 +3687,7 @@ hr {
 }
 
 .about-area .about-right .about-img img {
-    width: 100%
+    width: 100%;
 }
 
 .about-area .about-right .about-prea p {

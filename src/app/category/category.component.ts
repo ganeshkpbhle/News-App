@@ -14,25 +14,26 @@ export class CategoryComponent implements OnInit {
       title:"NIGHT PARTY",
       text:"Welcome To The Best Model Winner Contest",
       imgsrc:"assets/img/news/whatNews1.jpg",
-      color:"color1"
+      color:"color1",
+      imgsrc2:""
     },
     {
       title:"NIGHT PARTY",
       text:"Welcome To The Best Model Winner Contest",
       imgsrc:"assets/img/news/whatNews2.jpg",
-      color:"color1"
+      color:"color1",imgsrc2:""
     },
     {
       title:"NIGHT PARTY",
       text:"Welcome To The Best Model Winner Contest",
       imgsrc:"assets/img/news/whatNews3.jpg",
-      color:"color1"
+      color:"color1",imgsrc2:""
     },
     {
       title:"NIGHT PARTY",
       text:"Welcome To The Best Model Winner Contest",
       imgsrc:"assets/img/news/whatNews4.jpg",
-      color:"color1"
+      color:"color1",imgsrc2:""
     }
   ];
   constructor(private router:Router) { 
