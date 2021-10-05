@@ -44,7 +44,7 @@ const routes: Routes = [
     component:ElementComponent
   },
   {
-    path:"details",
+    path:"details/:src",
     component:DetailComponent
   }
 ];

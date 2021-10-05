@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Card } from '../module';
 
 @Component({
@@ -134,8 +135,8 @@ export class HomepageComponent implements OnInit {
       imgsrc:"assets/img/news/recent1.jpg",
       color:""
      }
-  ]
-  constructor() { }
+  ];
+  constructor(private activeRoute:ActivatedRoute,private router:Router) { }
 
   ngOnInit(): void {
   }
